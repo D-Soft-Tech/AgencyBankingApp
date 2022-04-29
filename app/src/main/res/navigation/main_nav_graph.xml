@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.keystone.agencybankingapp.ui.view.main.dashboard.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_withdrawal2"
+            app:destination="@id/withdrawal2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_deposit2"
+            app:destination="@id/deposit2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_loan2"
+            app:destination="@id/loan2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_fundsTransfer"
+            app:destination="@id/fundsTransfer"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_fundWalletViewPagerPage"
+            app:destination="@id/fundWalletViewPagerPage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_myAccounts"
+            app:destination="@id/myAccounts"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_ENairaHomePage"
+            app:destination="@id/ENairaHomePage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_newAccountOpeningViewPager"
+            app:destination="@id/newAccountOpeningViewPager"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_payBills2"
+            app:destination="@id/payBills2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_airtime3"
+            app:destination="@id/airtime3"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_bettingAndLottery"
+            app:destination="@id/bettingAndLottery"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_qrPaymentViewPagerPage"
+            app:destination="@id/qrPaymentViewPagerPage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_dashboard_to_myCommissions2"
+            app:destination="@id/myCommissions2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/fundsTransfer"
+        android:name="com.keystone.agencybankingapp.ui.view.main.FundsTransfer"
+        android:label="fragment_funds_transfer"
+        tools:layout="@layout/fragment_funds_transfer" />
+    <fragment
+        android:id="@+id/withdrawal2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.withdrawal.WithdrawalViewPagerPager"
+        android:label="fragment_withdrawal"
+        tools:layout="@layout/fragment_withdrawal" />
+    <fragment
+        android:id="@+id/deposit2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.Deposit"
+        android:label="fragment_deposit"
+        tools:layout="@layout/fragment_deposit" />
+    <fragment
+        android:id="@+id/loan2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.Loan"
+        android:label="fragment_loan"
+        tools:layout="@layout/fragment_loan" >
+        <action
+            android:id="@+id/action_loan2_to_withdrawal2"
+            app:destination="@id/withdrawal2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/fundWalletViewPagerPage"
+        android:name="com.keystone.agencybankingapp.ui.view.main.fundwalletflow.FundWalletViewPagerPage"
+        android:label="fragment_fund_wallet_view_pager_page"
+        tools:layout="@layout/fragment_fund_wallet_view_pager_page" >
+        <action
+            android:id="@+id/action_fundWalletViewPagerPage_to_ENairaHomePage"
+            app:destination="@id/ENairaHomePage"
+            app:popUpTo="@id/fundWalletViewPagerPage"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/myAccounts"
+        android:name="com.keystone.agencybankingapp.ui.view.main.MyAccounts"
+        android:label="fragment_my_accounts"
+        tools:layout="@layout/fragment_my_accounts" >
+        <action
+            android:id="@+id/action_myAccounts_to_myCommissions2"
+            app:destination="@id/myCommissions2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/myCommissions2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.commissions.MyCommissions"
+        android:label="fragment_my_commissions"
+        tools:layout="@layout/fragment_my_commissions" />
+    <fragment
+        android:id="@+id/ENairaHomePage"
+        android:name="com.keystone.agencybankingapp.ui.view.main.eNaira.ENairaHomePage"
+        android:label="fragment_e_naira_home_page"
+        tools:layout="@layout/fragment_e_naira_home_page" >
+        <action
+            android:id="@+id/action_ENairaHomePage_to_ENairaWithdrawal2"
+            app:destination="@id/ENairaWithdrawal2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_ENairaHomePage_to_ENairaTransfer3"
+            app:destination="@id/ENairaTransfer3"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/ENairaWithdrawal2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.eNaira.ENairaWithdrawal"
+        android:label="fragment_e_naira_withdrawal"
+        tools:layout="@layout/fragment_e_naira_withdrawal" />
+    <fragment
+        android:id="@+id/ENairaTransfer3"
+        android:name="com.keystone.agencybankingapp.ui.view.main.eNaira.ENairaTransfer"
+        android:label="fragment_e_naira_transfer"
+        tools:layout="@layout/fragment_e_naira_transfer" />
+    <fragment
+        android:id="@+id/newAccountOpeningViewPager"
+        android:name="com.keystone.agencybankingapp.ui.view.main.openAccountScreens.NewAccountOpeningViewPager"
+        android:label="NewAccountOpeningViewPager" >
+        <action
+            android:id="@+id/action_newAccountOpeningViewPager_to_accountOpeningSummaryPage"
+            app:destination="@id/accountOpeningSummaryPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountOpeningSummaryPage"
+        android:name="com.keystone.agencybankingapp.ui.view.main.openAccountScreens.AccountOpeningSummaryPage"
+        android:label="AccountOpeningSummaryPage" >
+        <action
+            android:id="@+id/action_accountOpeningSummaryPage_to_dashboard"
+            app:destination="@id/dashboard"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/payBills2"
+        android:name="com.keystone.agencybankingapp.ui.view.main.PayBills"
+        android:label="fragment_airtime"
+        tools:layout="@layout/fragment_airtime" />
+    <fragment
+        android:id="@+id/airtime3"
+        android:name="com.keystone.agencybankingapp.ui.view.main.Airtime"
+        android:label="fragment_airtime"
+        tools:layout="@layout/fragment_airtime" />
+    <fragment
+        android:id="@+id/bettingAndLottery"
+        android:name="com.keystone.agencybankingapp.ui.view.main.BettingAndLottery"
+        android:label="fragment_betting_and_lottery"
+        tools:layout="@layout/fragment_betting_and_lottery" />
+    <fragment
+        android:id="@+id/qrPaymentViewPagerPage"
+        android:name="com.keystone.agencybankingapp.ui.view.main.qrFlow.QrPaymentViewPagerPage"
+        android:label="fragment_qr_payment_page"
+        tools:layout="@layout/fragment_qr_payment_page" />
+</navigation>

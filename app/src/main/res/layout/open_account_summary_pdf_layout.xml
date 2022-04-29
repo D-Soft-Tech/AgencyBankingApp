@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/pageHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/page_header_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pdf_account_summary_header" />
+
+        <TextView
+            android:id="@+id/accountDetailsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_25dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/account_details"
+            android:textColor="@color/color_main_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pageHeader" />
+
+        <LinearLayout
+            android:id="@+id/accountDetailsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@drawable/dotted_outline_bg"
+            android:orientation="vertical"
+            android:weightSum="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/accountDetailsLabel"
+            app:layout_constraintTop_toBottomOf="@+id/accountDetailsLabel">
+
+            <TextView
+                android:id="@+id/accountName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_name_place_holder"
+                android:textColor="@color/color_main_2" />
+
+            <TextView
+                android:id="@+id/accountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_number_place_holder"
+                android:textColor="@color/color_main_2" />
+
+            <TextView
+                android:id="@+id/accountType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_type_place_holder"
+                android:textColor="@color/color_main_2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/accountOfficerDetailsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/accountOfficerDetails"
+            android:textColor="@color/color_main_2"
+            app:layout_constraintStart_toStartOf="@id/accountDetailsLabel"
+            app:layout_constraintTop_toBottomOf="@+id/accountDetailsLayout" />
+
+        <LinearLayout
+            android:id="@+id/accountOfficerDetailsLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginHorizontal="@dimen/dimen_20dp"
+            android:background="@drawable/dotted_outline_bg"
+            android:orientation="vertical"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/accountOfficerDetailsLabel">
+
+            <TextView
+                android:id="@+id/account_officer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_officer_name_place_holder"
+                android:textColor="@color/color_main_2" />
+
+            <TextView
+                android:id="@+id/account_officer_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="@string/account_officer_phone_number_place_holder"
+                android:textColor="@color/color_main_2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_30dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/for_enquiries"
+            android:textColor="@color/color_main_2"
+            app:layout_constraintStart_toStartOf="@+id/accountOfficerDetailsLayout"
+            app:layout_constraintTop_toBottomOf="@+id/accountOfficerDetailsLayout" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/keystoneWebsite"
+            android:textColor="@color/color_main_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView42"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:text="@string/contactCenterEmail"
+            android:textColor="@color/color_main_2"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintStart_toStartOf="@+id/textView43"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_main_2"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:text="@string/contactCenterNumber"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

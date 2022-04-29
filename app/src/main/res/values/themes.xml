@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AgencyBankingApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/main_color_variant_2</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/keyStoneColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">10000</item>
+        <item name="postSplashScreenTheme">@style/Theme.AgencyBankingApp</item>
+    </style>
+
+    <style name="dropDownMenuStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:background">@drawable/edit_tv_bg</item>
+        <item name="boxStrokeColor">@color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="headingText" parent="Theme.AgencyBankingApp">
+        <item name="android:textColor">@color/color_main_2</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">@dimen/dimen_20sp</item>
+    </style>
+
+    <style name="textInputLayoutStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@drawable/edit_tv_bg</item>
+        <item name="boxStrokeColor">@color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="otpStyle" parent="OtpWidget.OtpView">
+        <item name="android:itemBackground">@drawable/otp</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:elevation">@dimen/dimen_10dp</item>
+        <item name="android:inputType">number</item>
+        <item name="OtpHideLineWhenFilled">true</item>
+        <item name="OtpItemCount">4</item>
+        <item name="OtpItemHeight">@dimen/dimen_40dp</item>
+        <item name="OtpItemRadius">@dimen/dimen_10dp</item>
+        <item name="OtpItemSpacing">@dimen/dimen_25dp</item>
+        <item name="OtpItemWidth">@dimen/dimen_40dp</item>
+        <item name="OtpLineColor">@color/transparent</item>
+        <item name="OtpViewType">rectangle</item>
+    </style>
+
+    <style name="buttonStyle" parent="Theme.AgencyBankingApp">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="lekanDropDownMenuStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:background">@drawable/lekan_et_bg2</item>
+        <item name="boxStrokeColor">@color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="reuseableFairPayBtn" parent="Theme.AgencyBankingApp">
+        <item name="android:background">@drawable/reuseable_btn_bg</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="lekanAccountOpeningDocumentationStyle" parent="lekanTilStyle">
+        <item name="android:background">@drawable/lekan_til_documentation_bg</item>
+    </style>
+
+    <style name="lekan_txt_view_label" parent="Theme.AgencyBankingApp">
+        <item name="android:textColor">@color/color_main_2</item>
+    </style>
+
+    <style name="lekanTilStyle" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@drawable/edit_tv_bg</item>
+        <item name="boxStrokeColor">@color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="lekanTilStyle2" parent="lekanTilStyle">
+        <item name="android:background">@drawable/lekan_et_bg2</item>
+    </style>
+
+    <style name="buttonStyleOutlined" parent="Theme.AgencyBankingApp">
+        <item name="android:background">@drawable/button_bg_outline</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/color_main_2</item>
+    </style>
+
+    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TextAppearance.App.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="Widget.App.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="hintTextColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="tilWithUnderline" parent="Theme.AgencyBankingApp">
+        <item name="boxBackgroundColor">@color/transparent</item>
+        <item name="android:textColorHint">@color/grey_color_2</item>
+        <item name="android:backgroundTint">@color/color_main_2</item>
+        <item name="hintTextColor">@color/color_main_2</item>
+        <item name="boxStrokeWidth">@dimen/dimen_1dp</item>
+        <item name="boxStrokeColor">@color/color_main_2</item>
+        <item name="helperTextEnabled">false</item>
+        <item name="hintAnimationEnabled">false</item>
+    </style>
+
+    <color name="grey_color_2">#1C000000</color>
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.openAccountScreens.OpenAccountDocumentationScreen">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView35"
+            style="@style/lekan_txt_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:text="@string/profilePhoto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profilePictureLabel"
+            style="@style/lekanAccountOpeningDocumentationStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dimen_15dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profilePicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/choose_file_btn"
+                android:gravity="center"
+                android:hint="@string/noFileChosen"
+                android:padding="@dimen/dimen_5dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/validIdLabel"
+            style="@style/lekan_txt_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:text="@string/validId"
+            app:layout_constraintStart_toStartOf="@+id/textView35"
+            app:layout_constraintTop_toBottomOf="@+id/profilePictureLabel" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/validIdTil"
+            style="@style/lekanAccountOpeningDocumentationStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            app:layout_constraintEnd_toEndOf="@+id/profilePictureLabel"
+            app:layout_constraintStart_toStartOf="@+id/profilePictureLabel"
+            app:layout_constraintTop_toBottomOf="@+id/validIdLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/validId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_vertical"
+                android:drawableStart="@drawable/choose_file_btn"
+                android:gravity="center|center_vertical"
+                android:hint="@string/noFileChosen"
+                android:paddingVertical="@dimen/dimen_7dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/utilityBillLabel"
+            style="@style/lekan_txt_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:text="@string/utilityBill"
+            app:layout_constraintStart_toStartOf="@+id/validIdLabel"
+            app:layout_constraintTop_toBottomOf="@+id/validIdTil" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/utilityBillTil"
+            style="@style/lekanAccountOpeningDocumentationStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            app:layout_constraintEnd_toEndOf="@+id/validIdTil"
+            app:layout_constraintStart_toStartOf="@+id/validIdTil"
+            app:layout_constraintTop_toBottomOf="@+id/utilityBillLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/utilityBill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/choose_file_btn"
+                android:gravity="center"
+                android:hint="@string/noFileChosen"
+                android:padding="@dimen/dimen_5dp"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/signatureLabel"
+            style="@style/lekan_txt_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:text="@string/signature"
+            app:layout_constraintStart_toStartOf="@+id/utilityBillLabel"
+            app:layout_constraintTop_toBottomOf="@+id/utilityBillTil" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/signatureTil"
+            style="@style/lekanAccountOpeningDocumentationStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:gravity="center_vertical"
+            app:layout_constraintEnd_toEndOf="@+id/utilityBillTil"
+            app:layout_constraintStart_toStartOf="@+id/utilityBillTil"
+            app:layout_constraintTop_toBottomOf="@+id/signatureLabel">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/choose_file_btn"
+                android:gravity="center"
+                android:hint="@string/noFileChosen"
+                android:padding="@dimen/dimen_5dp"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <android.widget.Button
+            android:id="@+id/submitBtn"
+            style="@style/reuseableFairPayBtn"
+            android:layout_width="@dimen/dimen_200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_35dp"
+            android:layout_marginEnd="@dimen/dimen_30dp"
+            android:text="@string/submit"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/signatureTil"
+            app:layout_constraintStart_toStartOf="@+id/signatureTil"
+            app:layout_constraintTop_toBottomOf="@+id/signatureTil"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

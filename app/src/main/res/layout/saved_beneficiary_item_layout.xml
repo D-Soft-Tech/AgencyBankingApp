@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="@dimen/dimen_10dp"
+        android:layout_marginVertical="@dimen/dimen_5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/savedBeneficiaryAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_saved_beneficiary"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/savedBeneficiaryBankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="@string/sample_bank_name"
+            android:textColor="@color/black_33_opacity"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            app:layout_constraintStart_toStartOf="@+id/savedBeneficiaryAccountName"
+            app:layout_constraintTop_toBottomOf="@+id/savedBeneficiaryAccountName" />
+
+        <TextView
+            android:id="@+id/savedBeneficiaryAccountNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="@dimen/dimen_1dp"
+            android:textColor="@color/black_33_opacity"
+            android:text="@string/sample_account_number"
+            app:layout_constraintStart_toStartOf="@+id/savedBeneficiaryBankName"
+            app:layout_constraintTop_toBottomOf="@+id/savedBeneficiaryBankName" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_1dp"
+            android:background="@color/grey"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/savedBeneficiaryAccountNumber"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

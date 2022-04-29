@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="keyStoneColor">#1c234f</color>
+    <color name="keysMoniColor">#019CDC</color>
+    <color name="element_bg_color">#F9F9F9</color>
+    <color name="color_main_2">#0056A3</color>
+    <color name="stroke_color">#BDE4FE</color>
+    <color name="transparent">#0000FFFF</color>
+    <color name="main_color_variant_2">#19334b</color>
+    <color name="grey">#4DC4C4C4</color>
+    <color name="lekan_background_color">#F9F9F9</color>
+    <color name="success">#3ab636</color>
+    <color name="lighttext">#999</color>
+    <color name="lekan_grey_color">#33DADADA</color>
+    <color name="color_lekan_grey_2">#331E1F20</color>
+    <color name="stroke_color_2">#1A0056A3</color>
+    <color name="transparent_2">#2600FFFF</color>
+    <color name="transparent_black">#73000000</color>
+    <color name="black_33_opacity">#59000000</color>
+</resources>

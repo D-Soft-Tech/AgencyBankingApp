@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.view.main.openAccountScreens.OpenAccountAddressScreen">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView35"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_20dp"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:text="@string/residentialAddress"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/residentialStreetAddress"
+                style="@style/lekanTilStyle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dimen_15dp"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userNameTIET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_lekan_check_icon"
+                    android:hint="@string/john" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/residentialCityLabel"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/residentialCity"
+                app:layout_constraintStart_toStartOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/residentialStreetAddress" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/residentialCityTil"
+                style="@style/lekanTilStyle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                app:layout_constraintEnd_toEndOf="@+id/residentialStreetAddress"
+                app:layout_constraintStart_toStartOf="@+id/residentialStreetAddress"
+                app:layout_constraintTop_toBottomOf="@+id/residentialCityLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/residentialCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/doe"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/residentialStateLabel"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/residentialState"
+                app:layout_constraintStart_toStartOf="@+id/residentialCityLabel"
+                app:layout_constraintTop_toBottomOf="@+id/residentialCityTil" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/residentialStateTil"
+                style="@style/lekanTilStyle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                app:layout_constraintEnd_toEndOf="@+id/residentialCityTil"
+                app:layout_constraintStart_toStartOf="@+id/residentialCityTil"
+                app:layout_constraintTop_toBottomOf="@+id/residentialStateLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/residentialState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_lekan_check_icon"
+                    android:hint="@string/felix"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/phoneNumberLabel"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:text="@string/phoneNumber"
+                app:layout_constraintStart_toStartOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/residentialStateTil" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/phoneNumberTil"
+                style="@style/lekanTilStyle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                app:layout_constraintEnd_toEndOf="@+id/residentialCityTil"
+                app:layout_constraintStart_toStartOf="@+id/residentialStateTil"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumberLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_lekan_check_icon"
+                    android:hint="@string/enterPhoneNumber"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/emailLabel"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:text="@string/email"
+                app:layout_constraintStart_toStartOf="@+id/phoneNumberLabel"
+                app:layout_constraintTop_toBottomOf="@+id/phoneNumberTil" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailTil"
+                style="@style/lekanTilStyle2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                app:layout_constraintEnd_toEndOf="@+id/phoneNumberTil"
+                app:layout_constraintStart_toStartOf="@+id/phoneNumberTil"
+                app:layout_constraintTop_toBottomOf="@+id/emailLabel">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enterEmail"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/branchLabel"
+                style="@style/lekan_txt_view_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                android:text="@string/branch"
+                app:layout_constraintStart_toStartOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/emailTil" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/branchTil"
+                style="@style/lekanDropDownMenuStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:gravity="center_vertical"
+                app:layout_constraintEnd_toEndOf="@+id/residentialStateTil"
+                app:layout_constraintStart_toStartOf="@+id/phoneNumberTil"
+                app:layout_constraintTop_toBottomOf="@+id/branchLabel">
+
+                <AutoCompleteTextView
+                    android:id="@+id/branch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:hint="@string/selectBranch"
+                    android:inputType="none"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:ignore="LabelFor" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <android.widget.Button
+                android:id="@+id/proceedBtn"
+                style="@style/reuseableFairPayBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/next"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="@+id/previousPage"
+                app:layout_constraintEnd_toEndOf="@+id/branchTil"
+                app:layout_constraintTop_toTopOf="@+id/previousPage"
+                app:layout_constraintVertical_bias="0.0"
+                tools:ignore="RtlSymmetry" />
+
+            <android.widget.Button
+                android:id="@+id/previousPage"
+                style="@style/reuseableFairPayBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dimen_35dp"
+                android:text="@string/previous"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/branchTil"
+                app:layout_constraintTop_toBottomOf="@+id/branchTil"
+                tools:ignore="RtlSymmetry" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>

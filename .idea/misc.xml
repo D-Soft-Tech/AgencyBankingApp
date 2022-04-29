@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/button_bg_outline.xml" value="0.28489583333333335" />
+        <entry key="app/src/main/res/drawable/button_bg_white.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/circular_card.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/curve_bg.xml" value="0.3046875" />
+        <entry key="app/src/main/res/drawable/custom_edittext_border.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/dashboard_top_card_bg.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable/dotted_outline_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/edit_tv_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/edittext_border.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/fund_wallet_bg.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/drawable/ic_back_icon.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_cancel.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_download.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_fingerprint_recognition.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_lekan_calendar.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_lekan_check_icon.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_lekan_success_icon.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_share.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_success.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_transfer.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_transfer_white.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_user_icon.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_withdraw.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/ic_withdraw_white.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/layout_page_with_curved_bg.xml" value="0.29010416666666666" />
+        <entry key="app/src/main/res/drawable/lekan_calendar_2.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/lekan_et_bg2.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/lekan_til_documentation_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/loan_top_card_2.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/drawable/new_logo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/open_ended_stroke.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/otp.xml" value="0.28489583333333335" />
+        <entry key="app/src/main/res/drawable/otp_mask.xml" value="0.28489583333333335" />
+        <entry key="app/src/main/res/drawable/progress_bar_loading.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/reuseable_btn_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/search_view_bg.xml" value="0.3046875" />
+        <entry key="app/src/main/res/drawable/table_bg_2.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/table_bg_open_top.xml" value="0.284375" />
+        <entry key="app/src/main/res/drawable/view_2_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/view_bg.xml" value="0.33489583333333334" />
+        <entry key="app/src/main/res/drawable/white_custom_progress_bar.xml" value="0.29010416666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2064814814814815" />
+        <entry key="app/src/main/res/layout/app_tool_bar.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/drawer_menu_header_layout.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/exposed_dropdown_menu_layout.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_account_opening_summary_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_add_card.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_airtime.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_betting_and_lottery.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_cable_tv.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_date_picker.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_deposit.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout/fragment_e_naira_home_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_e_naira_transfer.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_e_naira_withdrawal.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_enter_pin_dialog.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/fragment_fund_wallet_first_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_fund_wallet_view_pager_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_funds_transfer.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_funds_trasfer.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_loading_dialog.xml" value="0.28854166666666664" />
+        <entry key="app/src/main/res/layout/fragment_loan.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login_screen.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_my_accounts.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_my_commissions.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_new_account_opening_view_pager.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_open_account_address_screen.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_open_account_bio_data_screen.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_open_account_bvn_screen.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_open_account_documentation_screen.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_open_account_first_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_otp_page.xml" value="0.26979166666666665" />
+        <entry key="app/src/main/res/layout/fragment_pay_bills.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_qr_code_page.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_qr_payment_page.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_qr_transaction_selection_page.xml" value="0.26875" />
+        <entry key="app/src/main/res/layout/fragment_saved_beneficiary_dialog.xml" value="0.28854166666666664" />
+        <entry key="app/src/main/res/layout/fragment_second_splash_screen.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal.xml" value="0.2875" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal_authentication_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_withdrawal_input_page.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/layout_fragment_second_splash_screen.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/layout_login.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/loading_dialog.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/open_account_summary_pdf_layout.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/saved_beneficiary_item_layout.xml" value="0.28854166666666664" />
+        <entry key="app/src/main/res/menu/app_menu.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/menu/my_stepper_menu.xml" value="0.31875" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

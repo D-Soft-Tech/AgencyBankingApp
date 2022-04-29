@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/commission"
+        android:icon="@drawable/ic_commission"
+        android:title="@string/my_commission"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/agent_manager"
+        android:icon="@drawable/ic_agent_manager"
+        android:title="@string/agent_manager"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/loan"
+        android:icon="@drawable/ic_loan"
+        android:title="@string/loan"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/my_accounts"
+        android:icon="@drawable/ic_account"
+        android:title="@string/my_account"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/log_out"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/log_out"
+        app:showAsAction="ifRoom" />
+
+</menu>

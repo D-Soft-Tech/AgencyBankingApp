@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_login_flow"
+    app:startDestination="@id/welcomeScreen">
+
+    <fragment
+        android:id="@+id/welcomeScreen"
+        android:name="com.keystone.agencybankingapp.ui.view.loginFlows.WelcomeScreen"
+        android:label="fragment_second_splash_screen"
+        tools:layout="@layout/fragment_second_splash_screen" >
+        <action
+            android:id="@+id/action_welcomeScreen_to_loginScreen"
+            app:destination="@id/loginScreen"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/welcomeScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.keystone.agencybankingapp.ui.view.loginFlows.LoginScreen"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>

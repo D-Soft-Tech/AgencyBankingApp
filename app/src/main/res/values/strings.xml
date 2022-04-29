@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">AgencyBankingApp</string>
+    <string name="logo">Logo</string>
+    <string name="branchless_banking_at_your_reach">Branchless Banking at your Reach!!!</string>
+    <string name="welcome">Welcome</string>
+    <string name="username_phone_number">Username</string>
+    <string name="password">Password</string>
+    <string name="username">Enter username</string>
+    <string name="enterPassword">Enter password</string>
+    <string name="unlock_using_fingerprint_sensor">Unlock using fingerprint</string>
+    <string name="keyMoniWelcomeScreenHeading">KEY MONI APP</string>
+    <string name="subHeading">…Banking at your finger tips</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_progress_bar">Circular progress bar</string>
+    <string name="agency_banking_services">Agency Banking Services</string>
+    <string name="agency_banking">Agency Banking</string>
+    <string name="sign_in_to_ur_account">Sign in to your account</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="home">Home</string>
+    <string name="my_commission">My Commission</string>
+    <string name="agent_manager">Agent Manager</string>
+    <string name="loan">Loan</string>
+    <string name="my_account">My Account</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Logout</string>
+    <string name="hello_jane">Hello, Jane!</string>
+    <string name="drawer_menu_toggle">Drawer menu toggle</string>
+    <string name="hello_jane_welcome_back">Hello Jane, welcome back!</string>
+    <string name="inbox_messages">Inbox messages</string>
+    <string name="my_wallet_ballance">My wallet balance</string>
+    <string name="wallet_balance"># %1$s</string>
+    <string name="fundWallet">Fund wallet</string>
+    <string name="fundMyWallet">Fund my wallet</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="transfer">Transfer</string>
+    <string name="keyserv_logo">Keyserv Logo</string>
+    <string name="proceed">Proceed</string>
+    <string name="accountNumber">Account Number</string>
+    <string name="amount">Amount</string>
+    <string name="deposit">Deposit</string>
+    <string name="loanBalance">Loan Balance</string>
+    <string name="selectionDurarion">Select Duration</string>
+    <string name="selectionAmount">Select Amount</string>
+    <string name="transferFunds">Funds Transfer</string>
+    <string name="new_beneficiary">New Beneficiary</string>
+    <string name="savedBeneficiary">Saved Beneficiary</string>
+    <string name="completeTrannsfer">Complete Transfer</string>
+    <string name="selectBank">Select Bank</string>
+    <string name="save_as_beneficiary">Save as Beneficiary</string>
+    <string name="openAccount">Open Account</string>
+    <string name="enterBvn">Enter BVN</string>
+    <string name="viaBankTransfer">Via Bank Transfer</string>
+    <string name="instructionOnBankTransfer">To add money to your Keyserv Account, make a bank transfer to the account below. Funds reflect instantly</string>
+    <string name="accountNumberToTransferTo">1012388526</string>
+    <string name="or">OR</string>
+    <string name="fundUsingDebitCard">Fund using a debit card</string>
+    <string name="fundYourAccountUsingCard">Fund your Account with your bank card</string>
+    <string name="fundUsingeNaira">Fund with eNaira</string>
+    <string name="transferFundsToWalletFromYoureNaira">Transfer Money from your eNaira wallet to your account</string>
+    <string name="add_a_new_card">Add a new Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_is_encrypted">Your card details are secured using world-class encryption software</string>
+    <string name="card_expiry_date">MM/YY</string>
+    <string name="card_cvv">CVV</string>
+    <string name="pin">Pin</string>
+    <string name="enter_otp_code">Enter OTP Code:</string>
+    <string name="please_enter_otp_code">Please enter the OTP code \nwe just sent to you</string>
+    <string name="cableTv">Cable TV Bills</string>
+    <string name="cableTvTitle">Cable TV </string>
+    <string name="eNairaBalance">e-Naira Balance</string>
+    <string name="pay_bills">Pay Bills</string>
+    <string name="residentialAddress">Residential Street Address</string>
+    <string name="internetServices">Internet Services</string>
+    <string name="utilityBills">Utility Bills</string>
+    <string name="airtime">Airtime</string>
+    <string name="continueToNextPage">Continue</string>
+    <string name="selectBiller">Select Biller</string>
+    <string name="enterPhoneNumber">Enter Phone Number</string>
+    <string name="enterAmount">Enter Amount</string>
+    <string name="bttingAndLottery">Betting And Lottery</string>
+    <string name="enterClientId">Enter Client ID</string>
+    <string name="qr">QR</string>
+    <string name="naration">Naration</string>
+    <string name="selectTransactionType">Select Transaction Type</string>
+    <string name="generateQrCode">Generate QR Code</string>
+    <string name="scan_qr_code">Scan QR to complete payment</string>
+    <string name="qr_code">QR Code</string>
+    <string name="john">John</string>
+    <string name="residentialCity">Residential City</string>
+
+    <string-array name="dormieBranch">
+        <item>Sample Branch A</item>
+        <item>Sample Branch B</item>
+        <item>Sample Branch C</item>
+    </string-array>
+
+    <string-array name="products">
+        <item>Select a Product</item>
+        <item>Current Account - Individuals</item>
+        <item>Savings Account Extra</item>
+        <item>Savings Accounts Individuals</item>
+        <item>Pay Time - Current Account</item>
+        <item>Future Account–Kids (0 – 12)</item>
+        <item>Future Account–Teens (13 – 18)</item>
+        <item>Quick Save</item>
+        <item>Quick Save Plus</item>
+        <item>Evolve Account</item>
+        <item>Pink Savings Account</item>
+        <item>Pink Current Account - Individuals</item>
+        <item>High Interest Savings Account</item>
+    </string-array>
+
+    <string-array name="cameraOrGalleryStringArray">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="doe">Doe</string>
+    <string name="residentialState">Residential State</string>
+    <string name="felix">Felix</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="branch">Branch</string>
+    <string name="selectBranch">Select Branch</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="product_sample">Product Sample</string>
+    <string name="storage_permission_granted">Storage permission granted</string>
+    <string name="back_arrow">Back arrow to dashboard</string>
+    <string name="back">Back</string>
+    <string name="account_summary">Account Summary</string>
+    <string name="success_icon">Success Icon</string>
+    <string name="account_created_successfully">Account created successfully, Kindly find your account details below</string>
+    <string name="account_details">Account Details</string>
+    <string name="account_name_place_holder">Account Name:        %1$s</string>
+    <string name="account_number_place_holder">Account Number:     %1$s</string>
+    <string name="account_type_place_holder">Account Type:           %1$s</string>
+    <string name="accountOfficerDetails">Account Officer Details</string>
+    <string name="account_officer_name_place_holder">Name:        %1$s</string>
+    <string name="finish">Finish</string>
+    <string name="account_officer_phone_number_place_holder">Number:     %1$s</string>
+    <string name="icon_to_share">Icon to Share the account information</string>
+    <string name="icon_to_download">Icon to download the account information</string>
+    <string name="page_header_image">Page Header Image</string>
+    <string name="for_enquiries">For enquiries:</string>
+    <string name="keystoneWebsite">www.keystonebankng.com</string>
+    <string name="contactCenterEmail">ContactCentre@keystonebankng.com</string>
+    <string name="contactCenterNumber">0700 2000 3000</string>
+    <string name="storage_permission_rationale_for_download">You need to grant this permission to save this file</string>
+    <string name="fileDownloaded">File downloaded</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="firstPage">First Page</string>
+    <string name="completed">Completed</string>
+    <string name="camera_permission_granted">Camera permission granted</string>
+    <string name="permission_granted">Camera and Storage permissions granted</string>
+    <string name="cameraOrGallery">Camera / Gallery?</string>
+    <string name="camera_permission_rationale">You need to grant this permission before you can use the camera</string>
+    <string name="storage_permission_rationale">You need to grant this permission before you can select image from your device</string>
+    <string name="profilePhoto">Profile Picture</string>
+    <string name="noFileChosen">No file chosen</string>
+    <string name="validId">Valid ID</string>
+    <string name="utilityBill">Utility Bill</string>
+    <string name="signature">Signature</string>
+    <string name="submit">Submit</string>
+    <string name="accountOpening">Account Opening</string>
+    <string name="you_are_few_steps_away">You are few steps away from creating an account</string>
+    <string name="bvn">BVN</string>
+    <string name="existing_account">Existing Account</string>
+    <string name="selectAnAccountType">Select an Account Type</string>
+    <string name="enterDaoCode">Enter DAO Code</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="middleName">Middle Name</string>
+    <string name="hint_gender">Gender</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="success">Success</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="eNairaTransfer">eNaira Transfer</string>
+    <string name="eNairaWithdrawal">eNaira Withdrawal</string>
+    <string name="eNaira">eNaira</string>
+    <string name="history">History</string>
+    <string name="_07_01_2021">01 - 02 - 2022</string>
+    <string name="wallet_balance_heading">Wallet Balance</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="search_transaction">Search Transaction</string>
+    <string name="myCommission">My Commissions</string>
+    <string name="transactionType">Transaction Type</string>
+    <string name="products">Products</string>
+    <string name="deposits">Deposits</string>
+    <string name="commission">Commission</string>
+    <string name="transfers">Transfers</string>
+    <string name="billsPayment">Bills Payment</string>
+    <string name="totalCommission">Total Commission</string>
+    <string name="total">Total</string>
+    <string name="type">Type</string>
+    <string name="buyAirtime">Buy Airtime</string>
+    <string name="bettingAndLottery"><![CDATA[Betting & Lottery]]></string>
+    <string name="nqr">NQR</string>
+    <string name="bibiMoney">BibiMoney</string>
+    <string name="support">Support</string>
+    <string name="fingerPrintAuthDeclined">Fingerprint authentication declined</string>
+    <string name="fingerPrintNotEnabled">Fingerprint is not enabled</string>
+    <string name="authenticationErrorPrefix">"Authentication Error: "</string>
+    <string name="authenticationSuccessful">Authentication Successful</string>
+    <string name="biometricTitle">Fingerprint Required</string>
+    <string name="biometricSubTitle">Fingerprint Authentication</string>
+    <string name="biometricDescription">Place your finger on the scanner to login</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_agent_pin">Enter Agent PIN</string>
+    <string name="loading">Loading…</string>
+    <string name="processing">Processing . . .</string>
+    <string name="choose_beneficiary">Choose Beneficiary</string>
+    <string name="select_beneficiary">Select Beneficiary</string>
+    <string name="close">Close</string>
+    <string name="sample_saved_beneficiary">OLOYEDE ADEBAYO OLAWALE</string>
+    <string name="sample_account_number">0122450102</string>
+    <string name="sample_bank_name">Guaranty Trust Bank</string>
+    <string name="accountName">Account name</string>
+    <string name="allFieldsRequired">All fields are required</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enterCustomerPin">Enter Customer PIN</string>
+</resources>
